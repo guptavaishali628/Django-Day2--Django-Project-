@@ -1,3 +1,5 @@
+print("from settings.py")
+
 """
 Django settings for flipkart project.
 
@@ -37,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # 'app',
 
 ]
 
@@ -67,6 +70,7 @@ TEMPLATES = [
     },
 ]
 
+# WSGI_APPLICATION = 'flipkart.asgi.application'
 WSGI_APPLICATION = 'flipkart.wsgi.application'
 
 

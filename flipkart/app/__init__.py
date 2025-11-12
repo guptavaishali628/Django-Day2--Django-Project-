@@ -1,0 +1,1 @@
+print("from app/__init__.py")

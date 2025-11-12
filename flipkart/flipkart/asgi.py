@@ -1,3 +1,4 @@
+print("from asgi.py")
 """
 ASGI config for flipkart project.
 
